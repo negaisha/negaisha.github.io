@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+/** 共通 **/
+* {
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    position: relative;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    content: ".";
+    font-size: 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.pc {
+    display: block !important;
+}
+
+.sp {
+    display: none !important;
+}
+
+/** header **/
+header {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+header .logo {
+    float: left;
+    width: auto !important;
+    padding: 0;
+}
+
+header .logo img {
+    width: auto !important;
+}
+
+header .logo a {
+    width: auto;
+    height: auto;
+}
+
+header p {
+    width: auto !important;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0;
+}
+
+header div.fr img {
+    height: 46px;
+    width: auto;
+}
+
+#nav_toggle {
+    display: none;
+}
+
+.header {
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    background: #fff;
+    z-index: 9999;
+	top: 0;
+}
+
+.header nav ul li.tel {
+    display: none;
+}
+
+.header nav ul a:hover,
+#form a:hover {
+    opacity: 0.7;
+}
+
+
+
+/** form **/
+#form {
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0 50px;
+    margin-bottom: 70px;
+}
+
+#form h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 45px;
+    margin-top: 0;
+}
+
+#form p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#form .tel {
+    margin-bottom: 30px;
+}
+
+#form .tel a {
+    display: block;
+    pointer-events: none;
+    margin-bottom: 10px;
+}
+
+/** h4 **/
+footer {
+    font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", sans-serif;
+    line-height: 160%;
+    color: #666;
+}
+
+footer #link h4 {
+    font-size: 18px;
+    border-bottom: dotted 1px #014099;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    clear: both;
+}
