@@ -61,7 +61,7 @@
 	}
 		.tab {
 		display: block;
-	}	
+	}
 }
 
 @media screen and (max-width:414px) {
@@ -70,9 +70,9 @@
 	}
 		.tab {
 		display: none;
-	}	
+	}
 }
-	
+
 @media screen and (max-width:567px) {
     #nav ul li.tel a:first-child {
         margin-bottom: 5px;
@@ -109,7 +109,7 @@
 /** main **/
 #main .kv {
     margin: 40px auto 20px;
-    background: url(../img/main_sp_bg.jpg) center top / contain no-repeat;
+    background: url(../img/main_sp_bg.jpeg) center top / contain no-repeat;
     height: auto;
 }
 
