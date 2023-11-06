@@ -49,6 +49,7 @@ header .logo {
     float: left;
     width: auto !important;
     padding: 0;
+    font-size: 20pt;
 }
 
 header .logo img {
