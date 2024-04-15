@@ -727,6 +727,44 @@
     background: #ffe5cc;
 }
 
+#table-alt {
+    width: 100%
+}
+
+@media screen and (min-width:768px) {
+    #table-alt th {
+        margin-bottom: 0.8em;
+        display: block;
+        width: auto;
+        font-weight: 600;
+        vertical-align: top;
+    }
+
+    #table-alt td {
+        padding: 10px 20px 10px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #table-alt th {
+        margin-bottom: 0.3em;
+        display: block;
+        width: auto;
+        font-weight: 600;
+        vertical-align: top;
+    }
+
+    #table-alt td {
+        width: auto;
+        padding: 0 0 30px;
+    }
+
+    #table-alt th, #table-alt td {
+        display: block;
+        text-align: left;
+    }
+}
+
 @media screen and (min-width:667px) {
     .sp_only {
         display: none;
