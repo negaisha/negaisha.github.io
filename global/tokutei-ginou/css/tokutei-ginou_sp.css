@@ -109,7 +109,9 @@
 /** main **/
 #main .kv {
     margin: 40px auto 20px;
-    background: url(../img/main_sp_bg.jpeg) center top / contain no-repeat;
+    /**background: url(../img/main_sp_bg.jpeg) center top / contain no-repeat;**/
+    background-image: url(../img/shacho.jpg);
+    background-position: center;
     height: auto;
 }
 

@@ -91,7 +91,9 @@
 #main .kv {
     width: 100%;
     margin: 125px auto 50px;
-    background: url(../img/shacho.jpg) center top / cover no-repeat;
+    /**background: url(../img/shacho.jpg) center top / cover no-repeat;**/
+    background-image: url(../img/shacho.jpg);
+    background-position: center;
     position: relative;
     height: 540px;
 }
